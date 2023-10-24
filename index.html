@@ -3,49 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School.Way</title>
+    <title>School Way</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
 </head>
 
 <body>
-
     <!------------- navbar ----------------->
-    <div class="header">
-        <nav id="navbar">
-            <img src="Image/schoolway2.png" class="logo">
-            <ul id="menu">
-                <li ><a href="">HOME</a></li>
-                <li ><a href="">ABOUT US</a></li>
-                <li ><a href="">OUR PROGRAMMES</a></li>
-                <li ><a href="">BOOKS & GAMES</a></li>
-                <li ><a href="">PARTNER WITH US</a></li>
-                <li ><a href="">BLOG</a></li>
-                <li ><a href="">SUPPORT US</a></li>
-            </ul>
+    <section class="header">
+        <nav>
+            <a href="HOME.html"><img src="Image/schoolway2.png"></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul id="menu">
+                        <li ><a href="">HOME</a></li>
+                        <li ><a href="">ABOUT US</a></li>
+                        <li ><a href="">OUR PROGRAMMES</a></li>
+                        <li ><a href="">BOOKS & GAMES</a></li>
+                        <li ><a href="">PARTNER WITH US</a></li>
+                        <li ><a href="">BLOG</a></li>
+                        <li ><a href="">SUPPORT US</a></li>
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h2>You can always <br>trust the <b style="color: orangered; 
-        font-size: 30px;">SCHOOL WAY</b> <br>to guide you to that reality</h2>
-        <h1><em>A school is all <br>you need to achieve <br>the future you hope
-             for.</em></h1><br>
-        <div class="hdabtn">
-            <span class="hdabtn1">
-                <p><a href="" class="hero-btn">Chat SCHOOL WAY Today. It is Free</a></p>
-            </span>
-            <span class="hdabtn1">
-                <p><a href="" class="hero-btn">Invite Us To Your School</a></p>
-            </span>
-            <span class="hdabtn1">
-                <p><a href="" class="hero-btn">Volunteer With Us</a></p>
-            </span>
+        <div class="headertxt">
+            <h1><em>A school is all you need to achieve the future you hope
+                for.</em></h1>
+            <p>You can always trust the <b class="txt" style="color: orangered;
+            ">SCHOOL WAY</b> to guide you to that reality</p>
+            <div class="hdabtn">
+                <span class="hdabtn1">
+                    <a href="" class="hero-btn">Join Our Weekly Chat</a>
+                </span>
+            </div>
         </div>
-    </div>
+    </section>
 
     <!--------- Quote section ----------->
 <section class="quote"><hr>
-    <h1>No man or woman who is something in society<br> journeyed alone 
-        through school as a child: <br>there is always a need for a guide.</h1>
+    <h1>No man or woman who is something in society journeyed alone 
+        through school as a child: there is always a need for a guide.</h1>
     <p>You can always trust the <b style="color: orangered;">SCHOOL WAY</b> 
-        to help you navigate the school system for a greater future.</p><br><hr>
+        to help you navigate the school system for a greater future.</p><hr>
 </section>
 
 
@@ -54,13 +54,13 @@
     <section class="welcome-section">
         <div class="thegoal">
             <h1>Our Goal</h1>
-            <p>We exist to properly spell out to students how school operates<br> 
-                and how they can maximize the benefits school offers for them to achieve<br>
+            <p>We exist to properly spell out to students how school operates
+                and how they can maximize the benefits school offers for them to achieve
                 quality education that will enable them to achieve a sustainable future.</p>
         </div>
         <div class="rw1">
-            <div class=video>
-                <video width="650" height="400" controls loop>
+            <div class=about-us>
+                <video  width="600" height="400" controls loop>
                     <source src="Image/School-Way Intro video.mp4" type=video/mp4>
                 </video>
             </div>
@@ -78,20 +78,20 @@
                     and correct their erroneous thoughts, beliefs, and views that disvalue schooling
                     and education in their minds. And help make learning processes understandable
                     for them.<br>
-                    <a href="" class="hero-btn2">Learn More About Our Programmes</a>
+                    <a href="" class="hero-btn2">More About Our Programmes</a>
                 </p>
             </div>
             <div class="abus">
-                <p><br>We create opportunities for <br>students to practically acquire 
-                    <br>and develop in-demand skills <br>through our project-based <br>
-                    learning platform and educational <br>games.<br><br>
-                    <a href="" class="hero-btn2">Learn More About Our Initiatives</a>
+                <p><br>We create opportunities for students to practically acquire 
+                    and develop in-demand skills through our project-based
+                    learning platform and educational games.<br><br><br>
+                    <a href="" class="hero-btn2">More About Our Initiatives</a>
                 </p>
             </div>
             <div class="abus">
-                <p><br><br><br>We provide time to answer questions, advice, guide, encourage, and empathize 
-                    with students through our weekly online chat.<br><br>
-                    <a href="" class="hero-btn2">Learn More About Our Online Chat Initiative</a>
+                <p><br>We provide time to answer questions, advice, guide, encourage, and empathize 
+                    with students through our weekly online chat.<br><br><br>
+                    <a href="" class="hero-btn2">More About Our Online Chat Initiative</a>
                 </p>
             </div>
         </div>
@@ -112,12 +112,12 @@
 <!-------------- Partnership Section -------->
 <section class="partnership">
     <div class="partnership1">
-        <h1>Schooling and education are <br>losing ground and value
-            even <br>among the students at school.
+        <h1>Schooling and education are losing ground and value
+            even among the students at school.
         </h1>
         <p> That's why 70% of students in Nigeria are not learning - UNICEF.</p>
-        <h1>We can save this situation, the <br>future of our children &amp; 
-            nations, <br>if we join hands.
+        <h1>We can save this situation, the future of our children &amp; 
+            nations, if we join hands.
         </h1>
         <div class="row4">
             <div class="hero-btns">
@@ -136,7 +136,7 @@
 
     <!--------- Quote1 section ----------->
 <section class="quote1"><hr>
-    <h1>No child deserves to go astray, <br>
+    <h1>No child deserves to go astray,
         while learning to find their ways.
         </h1>
     <p>Join hands with the <b style="color: orangered;">SCHOOL WAY</b> 
@@ -148,7 +148,7 @@
 <section class="programmes">
     <h1>Here is how we are saving the situation</h1>
     <p>You are always welcome to join us on our journey to guide 
-       students to better <br>maximize their school experiences and education 
+       students to better maximize their school experiences and education 
        to achieve a sustainable future. 
     </p>
 
@@ -177,11 +177,13 @@
             <img width="450" height="300" src="Image/proonline.jpg">
             <p>Ask School Way is our biweekly online live programme where we thoughtfully address 
                 questions and controversial thoughts bothering on schooling, learning, skills 
-                development, career choice, etc.<br><br><br><br>
+                development, career choice, etc.<br><br><br><br><br>
             <a href="" class="hero-btn5">Join Us</a></p>
         </div>
     </div>
 </section>
+
+<!---------- probas -------------->
 <section><hr><br><br>
     <div class="probas">
         <div class="probas1">
@@ -189,7 +191,7 @@
                 LIVE CHAT</a>
         </div>
         <div class="probas1">
-            <h3>Questions and answers with School Way's team.</h3>
+            <h3>Questions &amp; answers with School Way's team.</h3>
         </div>
         <div class="probas1">
             <a href="" class="hero-btn1">Invite Us to Your School</a>
@@ -198,15 +200,14 @@
     <br><br><hr><br><br>
 </section>
 
-
 <!------------- Quote2 Section ------->
 <section class="quote2"><hr>
-    <h1>All students are travellers. The successful ones <br>
+    <h1>All students are travellers. The successful ones
         are those who travel with either a learning roadmap 
-        <br>or a reliable guide who leads them before making <br> thier 
+        or a reliable guide who leads them before making thier 
         own discoveries about life.</h1>
     <p>Help yourself (or your child if you are a parent) learn the ways and 
-        culture of learning in schools to make your <br>schooling and education count 
+        culture of learning in schools to make your schooling and education count 
         in your life in the future.</p><br><hr>
 </section>
 
@@ -216,7 +217,7 @@
 <section class="book">
     <div class="books">
         <div class="book1">
-            <img src="Image/undergraduate.jpg">
+            <img width="50%" src="Image/undergraduate.jpg">
         </div>
     </div>
     <div class="books">
@@ -225,7 +226,7 @@
         </div>
         <div class="book2">
             <p>How to acquire knowledge, develop soft skills, &amp; gather 
-                experiences <br>on campus for the best post-graduation experience 
+                experiences on campus for the best post-graduation experience 
                 and life.
             </p>
         </div>
@@ -246,6 +247,7 @@
         </div>
     </div>
 </section>
+
 
 <!----------- Contact Form --------->
 <section class="cfs">
@@ -312,7 +314,7 @@
             <p>School Way's school club is a platform where students are engaged to develop 
                 skills such as problem-solving skills, teamwork, communication, leadership, 
                 etc. through active participation and involvement in practical community 
-                development activities (within their schools), and enlightening discussions.<br><br>
+                development activities (within their schools), and enlightening discussions.<br>
             <a href="" class="blog-btn">Read</a></p>
         </div>
         <div class="blog1">
@@ -320,7 +322,7 @@
             <h2>Catching The Attention</h2>
             <p>Ask School Way is our biweekly online live programme where we thoughtfully address 
                 questions and controversial thoughts bothering on schooling, learning, skills 
-                development, career choice, etc.<br><br><br><br>
+                development, career choice, etc.<br>
             <a href="" class="blog-btn">Read</a></p>
         </div>
     </div>
@@ -329,9 +331,9 @@
 
 <!--------- Quote1 section ----------->
 <section class="quote3"><hr>
-    <h1>School, of course, is not the only place <br>where 
-        learning and knowledge acquisition can take <br>place. However, 
-        none of the other places can <br>benefit you as a school.</h1>
+    <h1>School, of course, is not the only place where 
+        learning and knowledge acquisition can take place. However, 
+        none of the other places can benefit you as a school.</h1>
     <p>Walk with the <b style="color: orangered;">SCHOOL WAY</b>
         to learn how to maximize all the benefits school offers.</p><br><hr>
 </section>
@@ -340,7 +342,7 @@
 <!------------- Call To Action ------->
 <section class="cta">
     <h1>New Resources in Your Inbox</h1>
-    <p>An Update From School Way</p>
+    <p>Get Updates From <span style="color: orangered;">School Way</span></p>
     <div class="cta1">
         <label>Email:</label>
         <input type="email" name="" value="" placeholder="Enter Your Email">
@@ -382,7 +384,7 @@
                         <a href="">Sponsor a School</a><br>
                         <a href="">Invite Us to Your School</a><br>
                         <a href="">Volunteer</a><br>
-                        <a href="">Blog</a><br>
+                        <a href="">Contact</a><br>
                     </p>
         </div>
         <div class="footer-col">
@@ -395,13 +397,46 @@
                     </p>
         </div>
     </div>
-    <hr><br>
-    <p class="footlt">&copy;2023 School Way. All Right Reversed.</p>
+    <hr>
+    <p class="footlt">&copy;2023 School Way. All Right Reversed.</p><br>
     </section>
 </footer>
 
 
     <!---------- JavaScript ---------->
+<script>
+    var navLink = document.getElementById("navLink");
+
+    function showMenu(){
+        navLink.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLink.style.right = "-200px";
+    }
+   
+    /*window.onscroll = function(){
+        if(window.pageYOffset >= menu.offsetTop){
+            navbar.classList.add("sticky");
+        }
+    }*/
+
+    // assume only one video is playing at a time
+    var videoPlaying = null;
+
+    const onPlay = function() {
+        if (videoPlaying && videoPlaying != this) {
+            videoPlaying.pause()
+        }
+        videoPlaying = this
+    }
+
+    // init event handler
+    const videos = document.getElementsByClassName("video-bg")
+    for (let i = 0; i < videos.length; i++) {
+        videos[i].addEventListener("play", onPlay)
+    }
+</script>
 <script src="./script.js"></script>
 </body>
 </html>
